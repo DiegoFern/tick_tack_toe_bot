@@ -46,7 +46,7 @@ from telebot import types # Tipos para la API del bot.
 import time # Librería para hacer que el programa que controla el bot no se acabe.
 #Init Bot
 try:
-    token=next(open('token_secret.py')).strip()
+    token=next(open('token_secret.txt')).strip()
 except:
     raise Exception('''Append token_secret.txt file with the token of the application''')
 
